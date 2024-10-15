@@ -18,11 +18,11 @@
 </template>
 
 <script>
-import TheMenu from "./TheMenu.vue"
+import TheMenu from './TheMenu.vue'
 
 export default {
   components: {
-    TheMenu
-  }
+    TheMenu,
+  },
 }
 </script>
