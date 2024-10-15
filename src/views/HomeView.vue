@@ -18,7 +18,7 @@
           </svg>
         </button>
       </div>
-      <div class="main-image"></div>
+      <img src="../assets/images/home-main-bg.jpg" alt="" />
     </div>
   </div>
 
