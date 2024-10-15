@@ -1,15 +1,20 @@
 <template>
-  <Router-Link :to="'/'+ link" class="button button--menu">
+  <button class="flex items-center gap-1 ml-16 px-3 pt-3 pb-4 bg-white text-[#92A581] text-xs leading-[0.875rem] rounded-[7px]">
     <slot></slot>
-    <svg viewBox="0 0 7.01 7.01" class="arrow-icon">
-      <path d="M.32,3.51h6.38" />
-      <path d="M3.51.32l3.19,3.19-3.19,3.19" />
-    </svg>
-  </Router-Link>
+    <BaseIcon name="arrow" viewBox="0 0 7 7" class="stroke-[#92A581] fill-none w-[7px] h-[7px] translate-y-1/2"/>
+  </button>
 </template>
 
 <script>
+import BaseIcon from "./BaseIcon.vue"
+
 export default {
-  props: ['link']
+  components: {
+    BaseIcon
+  }
 }
 </script>
+
+  border: none;
+
+  transition: 0.5s ease;

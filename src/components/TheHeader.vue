@@ -2,12 +2,7 @@
   <header class="header">
     <div class="container">
       <div class="header-inner">
-        <RouterLink to="/">
-          <p class="logo-text">
-            Открывая <br />
-            <span>горизонты</span>
-          </p>
-        </RouterLink>
+        <TheLogo />
         <div class="burger" id="MENU_BUTTON">
           <span></span>
         </div>
@@ -19,10 +14,11 @@
 
 <script>
 import TheMenu from './TheMenu.vue'
-
+import TheLogo from './TheLogo.vue'
 export default {
   components: {
     TheMenu,
+    TheLogo,
   },
 }
 </script>
