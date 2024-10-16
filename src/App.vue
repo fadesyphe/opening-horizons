@@ -1,15 +1,13 @@
 <template>
   <TheHeader />
-  <TheMain>
+  <!-- <TheMain>
     <RouterView />
-  </TheMain>
-
-
+  </TheMain> -->
 </template>
 
 <script>
 import TheHeader from './components/TheHeader.vue'
-import TheMain from "./components/TheMain.vue"
+import TheMain from './components/TheMain.vue'
 
 export default {
   components: {

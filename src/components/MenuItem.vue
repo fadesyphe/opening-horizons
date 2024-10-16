@@ -1,5 +1,5 @@
 <template>
-  <li class="menu-item">
+  <li :class="$attrs.class + ' line-height-[18.52px] hover:text-orange ease-out duration-500'">
     <RouterLink :to="'/' + link">
       {{ text }}
     </RouterLink>

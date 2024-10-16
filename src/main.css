@@ -145,10 +145,6 @@ ol, ul {
 }
 .logo-text {
   font-family: "GOST type A";
-  padding-left: 0.5rem;
-  line-height: 0.6;
-  /* font-size: 0.75rem; */
-  font-size: clamp(12px, var(--index), 21px)
 }
 .logo-text span {
   padding-left: 20px;
@@ -231,12 +227,7 @@ ol, ul {
   height: 100%;
   color: #000;
 }
-.menu-item {
-  padding: 1rem;
-  border-bottom: 1px solid #FFF;
-  text-align: center;
-  width: 100%;
-}
+
 
 
 /* MAIN */
@@ -247,7 +238,7 @@ ol, ul {
   color: #FFF;
   position: relative;
 }
-.main:after {
+/* .main:after {
   content: "";
   position: absolute;
   z-index: 1;
@@ -260,7 +251,7 @@ ol, ul {
 
   background: no-repeat center url(./images/lines\ mobile.svg);
   background-size: contain;
-}
+} */
 .main-title {
   font-size: clamp(18px, var(--index)*2.4, 35px);
   line-height: 1;
@@ -787,15 +778,8 @@ ol, ul {
     color: #FFF;
     padding: 0;
   }
-  .menu-item {
-    padding: 0 3rem 0 0;
-    border: none;
-    width: max-content;
-    text-align: start;
-  }
-  .menu-item:last-child {
-    padding-right: 0;
-  }
+
+
 
   /* MAIN */
 
