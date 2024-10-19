@@ -1,26 +1,5 @@
 <template>
-  <div class="container">
-    <div class="main-inner">
-      <div class="main-info">
-        <h1 class="main-title">
-          Открывайте<br />новые возможности<br />в достойной одежде
-        </h1>
-        <p class="main-text">
-          Омское производство детской одежды. <span>Партии от 5 единиц</span>
-        </p>
-        <p class="main-text">Партии от 5 единиц</p>
-        <p class="main-text">Детская одежда на любой случай!</p>
-        <button href="#links" class="button" data-form>
-          Свяжитесь с нами
-          <svg viewBox="0 0 7.01 7.01" class="arrow-icon">
-            <path d="M.32,3.51h6.38" />
-            <path d="M3.51.32l3.19,3.19-3.19,3.19" />
-          </svg>
-        </button>
-      </div>
-      <img src="../assets/images/home-main-bg.jpg" alt="" />
-    </div>
-  </div>
+  <TheHomeMain />
 
   <section class="section section--clients" id="ABOUT">
     <div class="container">
@@ -262,5 +241,11 @@
 </template>
 
 <script>
-export default {}
+import TheHomeMain from "../components/TheHomeMain.vue"
+
+export default {
+  components: {
+    TheHomeMain
+  }
+}
 </script>
