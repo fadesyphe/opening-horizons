@@ -30,7 +30,6 @@ export default {
   methods: {
     changeColor(color) {
       this.filling = color
-      console.log(color)
     },
   },
 

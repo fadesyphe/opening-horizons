@@ -3,7 +3,7 @@
     :class="classes"
     @mouseenter="hoverButton"
     @mouseleave="hoverButton"
-    @click="clickButton"
+    @click="$emit('clickBurger')"
   >
     <span :class="'h-px w-[26.78px] duration-500 ease-out bg-white ' + classesTop"></span>
     <span :class="'h-px w-[26.78px] duration-500 ease-out bg-white ' + classesMiddle"></span>
@@ -25,10 +25,6 @@ export default {
     hoverButton() {
       this.isPointed = !this.isPointed
     },
-
-    clickButton() {
-      this.$emit('clickBurger')
-    }
   },
 
   computed: {
@@ -46,7 +42,7 @@ export default {
         'flex',
         'md:hidden',
         'relative',
-        'z-20',
+        'z-50',
         this.isPointed ? 'bg-white/[.5]' : 'bg-none'
       ]
     },
@@ -68,6 +64,10 @@ export default {
         this.isActive ? '-rotate-45 -translate-y-[7px]' : 'rotate-0 translate-y-0'
       ]
     }
+  },
+
+  emits: {
+    clickBurger: null,
   }
 }
 </script>

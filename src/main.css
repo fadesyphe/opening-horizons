@@ -257,14 +257,12 @@ ol, ul {
   line-height: 1;
   text-align: center;
   position: relative;
-  z-index: 10;
 }
 .main-text {
   font-size: clamp(10px, calc(var(--index)*1), 15px);
   line-height: 0.75rem;
   text-align: center;
   position: relative;
-  z-index: 10;
 }
 .main-text span {
   display: none;
