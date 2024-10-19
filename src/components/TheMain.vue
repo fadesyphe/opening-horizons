@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-green py-12 text-white relative">
+  <main class="">
     <slot></slot>
   </main>
 </template>

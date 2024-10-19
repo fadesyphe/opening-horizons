@@ -1,50 +1,9 @@
 <template>
   <TheHomeMain />
+  <HomeList :title="clientsTitle" :list="clientsList" />
+  <HomeList :title="servicesTitle" :list="servicesList">логотипов и лекал</HomeList>
 
-  <section class="section section--clients" id="ABOUT">
-    <div class="container">
-      <div class="section-inner">
-        <div class="clients-info">
-          <h2 class="section-title">
-            Кому <br />
-            <span>мы полезны</span>
-          </h2>
-          <ul class="section-list">
-            <li class="section-list-item">Бренды и дизайнеры детской одежды</li>
-            <li class="section-list-item">
-              Организаторы мероприятий и кружков
-            </li>
-            <li class="section-list-item">Детские сады и школы</li>
-            <li class="section-list-item">Корпаративные клиенты</li>
-            <li class="section-list-item">Начинающие предприниматели</li>
-          </ul>
-        </div>
-        <div class="section-image"></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--services" id="SERVICES">
-    <div class="container">
-      <div class="section-inner">
-        <div class="services-info">
-          <h2 class="section-title">
-            <span>Наши услуги</span>
-          </h2>
-          <ul class="section-list">
-            <li class="section-list-item">Производство одежды (от 5 единиц)</li>
-            <li class="section-list-item">Разработка, создание образов</li>
-            <li class="section-list-item">Разработка дизайна и коллекции</li>
-            <li class="section-list-item">Конструирование и градация лекал</li>
-            <li class="section-list-item">Разработка печать и нанесение</li>
-            <li class="section-list-item"><span>логотипов и принтов</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--advantages" id="ADVANTAGES">
+  <section class="section section--advantages mt-9" id="ADVANTAGES">
     <div class="advantages-title-wrapper">
       <div class="container">
         <div class="section-inner">
@@ -242,10 +201,33 @@
 
 <script>
 import TheHomeMain from "../components/TheHomeMain.vue"
+import HomeList from "../components/HomeList.vue"
 
 export default {
   components: {
-    TheHomeMain
+    TheHomeMain,
+    HomeList
+  },
+
+  data() {
+    return {
+      clientsTitle: 'Кому <br>мы полезны',
+      servicesTitle: 'Наши услуги',
+      clientsList: [
+        { text: 'Бренды и дизайнеры детской одежды' },
+        { text: 'Организаторы мероприятий и кружков' },
+        { text: 'Детские сады и школы' },
+        { text: 'Корпаративные клиенты' },
+        { text: 'Начинающие предприниматели' }
+      ],
+      servicesList: [
+        { text: 'Производство одежды (от 5 единиц)' },
+        { text: 'Разработка, создание образцов' },
+        { text: 'Разработка дизайна и коллекций' },
+        { text: 'Конструирование и градация лекал' },
+        { text: 'Разработка печать и нанесение' },
+      ]
+    }
   }
 }
 </script>

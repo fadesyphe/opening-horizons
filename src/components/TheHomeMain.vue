@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full max-w-[1100px] px-3 mx-auto">
-    <div class="main-info">
+  <div class="w-full max-w-[1100px] px-3 py-9 mx-auto bg-green text-white">
+    <div>
       <h1 class="text-2xl text-center leading-none relative z-20">
         Открывайте<br />новые возможности<br />в достойной одежде
       </h1>
