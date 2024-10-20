@@ -2,124 +2,8 @@
   <TheHomeMain />
   <HomeList :title="clientsTitle" :list="clientsList" />
   <HomeList :title="servicesTitle" :list="servicesList">логотипов и лекал</HomeList>
+  <TheAdvantage />
 
-  <section class="section section--advantages mt-9" id="ADVANTAGES">
-    <div class="advantages-title-wrapper">
-      <div class="container">
-        <div class="section-inner">
-          <div class="advantages-info">
-            <h2 class="section-title">
-              <span>Почему мы?</span>
-            </h2>
-            <h2 class="section-title">Наши преимущества</h2>
-            <button class="button" data-price>
-              Прайс
-              <svg viewBox="0 0 7.01 7.01" class="arrow-icon">
-                <path d="M.32,3.51h6.38" />
-                <path d="M3.51.32l3.19,3.19-3.19,3.19" />
-              </svg>
-            </button>
-          </div>
-          <div class="section-image"></div>
-        </div>
-      </div>
-    </div>
-    <div class="advantages-list">
-      <div class="container">
-        <div class="advantages-list-item">
-          <div class="advantages-item-info">
-            <h3 class="advantages-item-title">
-              <span>Индивидуальный подход:</span>
-            </h3>
-            <p class="advantages-item-description">
-              Мы работаем с каждым клиентом, <br />
-              учитывая его уникальные потребности.
-            </p>
-          </div>
-          <div class="advantages-item-image"></div>
-        </div>
-        <div class="advantages-list-item advantages-list-item--orange-back">
-          <div class="advantages-item-info">
-            <h3 class="advantages-item-title">
-              <span>Высокое качество:</span>
-            </h3>
-            <p class="advantages-item-description">
-              Мы соблюдаем строгие стандарты качества, <br />
-              чтобы ваша одежда была не только красивой, <br />
-              но и долговечной.
-            </p>
-          </div>
-        </div>
-        <div class="advantages-list-item">
-          <div class="advantages-item-info">
-            <h3 class="advantages-item-title">
-              <span>Оперативность и гибкость:</span>
-            </h3>
-            <p class="advantages-item-description">
-              Мы специализируемся на мелкосерийном <br />
-              производстве, что позволяет быстро<br />адаптироваться, выпускать
-              партии без задержек.
-            </p>
-          </div>
-          <div class="advantages-item-image"></div>
-        </div>
-      </div>
-    </div>
-    <div class="advantages-list advantages-list--green-back">
-      <div class="container">
-        <div class="advantages-text-container">
-          <div class="advantages-list-item">
-            <h3 class="advantages-item-title">
-              <span>Доступные цены:</span>
-            </h3>
-            <p class="advantages-item-description">
-              Мы предлагаем конкурентоспособные <br />
-              цены без ущерба для качества.
-            </p>
-          </div>
-          <div class="advantages-list-item">
-            <h3 class="advantages-item-title">
-              <span>Опыт и профессионализм:</span>
-            </h3>
-            <p class="advantages-item-description">
-              Наша небольшая команда состоит из <br />
-              опытных специалистов, которые <br />
-              гарантируют отличный результат.
-            </p>
-          </div>
-          <div class="advantages-list-item advantages-list-item--back">
-            <h3 class="advantages-item-title">
-              <span>Уникальные</span>
-            </h3>
-            <br />
-            <h3 class="advantages-item-title">современные дизайны</h3>
-            <p class="advantages-item-description">
-              Мы предлагаем стильные, <br />
-              современные решения для детской одежды.
-            </p>
-          </div>
-          <div class="advantages-list-item">
-            <h3 class="advantages-item-title">
-              <span>Доверие и надёжность</span>
-            </h3>
-            <p class="advantages-item-description">
-              Мы строим долгосрочные отношения <br />
-              с нашими клиентами, основанные на честности,<br />прозрачности и
-              выполнении всех обязательств.
-            </p>
-          </div>
-          <button class="button" data-price>
-            Прайс
-            <svg viewBox="0 0 7.01 7.01" class="arrow-icon">
-              <path d="M.32,3.51h6.38" />
-              <path d="M3.51.32l3.19,3.19-3.19,3.19" />
-            </svg>
-          </button>
-        </div>
-      </div>
-      <div class="advantages-list-background"></div>
-    </div>
-  </section>
   <section class="section section--works">
     <div class="container">
       <div class="section-inner">
@@ -202,11 +86,13 @@
 <script>
 import TheHomeMain from "../components/TheHomeMain.vue"
 import HomeList from "../components/HomeList.vue"
+import TheAdvantage from "../components/TheAdvantage.vue"
 
 export default {
   components: {
     TheHomeMain,
-    HomeList
+    HomeList,
+    TheAdvantage
   },
 
   data() {

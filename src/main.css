@@ -462,20 +462,6 @@ ol, ul {
 .advantages-info .section-title:nth-child(2):after {
   display: none;
 }
-.advantages-title-wrapper img {
-  position: absolute;
-  z-index: 1;
-  max-width: 40%;
-}
-.advantages-title-wrapper img:nth-child(2) {
-  left: -1rem;
-  top: -10%;
-}
-.advantages-title-wrapper img:last-child {
-  right: 0;
-  transform: rotate(180deg);
-  bottom: -1rem;
-}
 .advantages-list .container {
   color: #000;
   padding-top: 3rem;
