@@ -2,7 +2,7 @@
   <TheHomeMain />
   <HomeList :title="clientsTitle" :list="clientsList" />
   <HomeList :title="servicesTitle" :list="servicesList">логотипов и лекал</HomeList>
-  <TheAdvantage />
+  <TheAdvantages />
 
   <section class="section section--works">
     <div class="container">
@@ -86,13 +86,13 @@
 <script>
 import TheHomeMain from "../components/TheHomeMain.vue"
 import HomeList from "../components/HomeList.vue"
-import TheAdvantage from "../components/TheAdvantage.vue"
+import TheAdvantages from "../components/TheAdvantages.vue"
 
 export default {
   components: {
     TheHomeMain,
     HomeList,
-    TheAdvantage
+    TheAdvantages
   },
 
   data() {
