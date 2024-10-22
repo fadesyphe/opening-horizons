@@ -3,27 +3,7 @@
   <HomeList :title="clientsTitle" :list="clientsList" />
   <HomeList :title="servicesTitle" :list="servicesList">логотипов и лекал</HomeList>
   <TheAdvantages />
-
-  <section class="section section--works">
-    <div class="container">
-      <div class="section-inner">
-        <div class="works-info">
-          <h2 class="section-title">Наши работы</h2>
-          <p>
-            В этом альбоме вы можете увидеть<br />замечательные результаты наших
-            трудов!
-          </p>
-          <a href="#photo" class="button">
-            Перейти в альбом
-            <svg viewBox="0 0 7.01 7.01" class="arrow-icon">
-              <path d="M.32,3.51h6.38" />
-              <path d="M3.51.32l3.19,3.19-3.19,3.19" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <HomeWork />
   <section class="section section--photos" id="PHOTO">
     <div class="container">
       <div class="section-inner"></div>
@@ -87,12 +67,14 @@
 import TheHomeMain from "../components/TheHomeMain.vue"
 import HomeList from "../components/HomeList.vue"
 import TheAdvantages from "../components/TheAdvantages.vue"
+import HomeWork from "../components/HomeWork.vue"
 
 export default {
   components: {
     TheHomeMain,
     HomeList,
-    TheAdvantages
+    TheAdvantages,
+    HomeWork
   },
 
   data() {

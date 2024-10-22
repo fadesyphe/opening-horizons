@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-[1100px] px-3 mx-auto my-8 text-black font-bold">
+  <div class="w-full max-w-[1100px] px-3 mx-auto mt-8 mb-4 text-black font-bold">
     <div class="pl-5">
       <div class="relative z-20">
         <h3 class="text-[18px] leading-none relative z-20">
