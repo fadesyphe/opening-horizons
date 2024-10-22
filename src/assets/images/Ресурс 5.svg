@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.63 294.41">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        letter-spacing: .1em;
+      }
+
+      .cls-3 {
+        fill: #f5d28e;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: FruitsandVegetables-Display, 'Fruits and Vegetables';
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #fff;
+        font-size: 12.08px;
+      }
+
+      .cls-6 {
+        letter-spacing: .11em;
+      }
+
+      .cls-7 {
+        letter-spacing: .08em;
+      }
+
+      .cls-8 {
+        letter-spacing: .09em;
+      }
+
+      .cls-9 {
+        letter-spacing: .1em;
+      }
+
+      .cls-5 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-10 {
+        letter-spacing: .09em;
+      }
+
+      .cls-11 {
+        letter-spacing: .1em;
+      }
+
+      .cls-12 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 6.71;
+        stroke-width: 1.34px;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <g>
+      <rect class="cls-3" y=".26" width="120.63" height="294.15"/>
+      <line class="cls-12" x1="106.5" y1=".26" x2="106.5" y2="294.41"/>
+      <line class="cls-12" x1="91.23" x2="91.23" y2="294.41"/>
+      <line class="cls-12" x1="75.98" x2="75.98" y2="294.41"/>
+      <line class="cls-12" x1="60.86" x2="60.86" y2="294.41"/>
+      <line class="cls-12" x1="45.6" x2="45.6" y2="294.41"/>
+      <line class="cls-12" x1="30.38" y1=".26" x2="30.38" y2="294.41"/>
+      <line class="cls-12" x1="15.11" y1=".26" x2="15.11" y2="294.41"/>
+      <g class="cls-4">
+        <text class="cls-2" transform="translate(104.92 290.35) rotate(-90)"><tspan x="0" y="0">О</tspan></text>
+        <text class="cls-5" transform="translate(104.92 280.83) rotate(-90)"><tspan class="cls-10" x="0" y="0">т</tspan><tspan class="cls-9" x="6.09" y="0">крыв</tspan><tspan class="cls-6" x="37.65" y="0">а</tspan><tspan class="cls-9" x="44.76" y="0">я</tspan></text>
+        <text class="cls-2" transform="translate(104.92 228.42) rotate(-90)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-5" transform="translate(104.92 222.98) rotate(-90)"><tspan class="cls-7" x="0" y="0">г</tspan><tspan class="cls-1" x="5.62" y="0">оризо</tspan><tspan class="cls-11" x="43.68" y="0">н</tspan><tspan class="cls-8" x="51.45" y="0">т</tspan><tspan class="cls-9" x="57.54" y="0">ы</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
