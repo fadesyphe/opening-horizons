@@ -9,7 +9,7 @@ export default {
         yellow: '#FFE492',
       },
       backgroundImage: {
-        'title': 'url(./src/assets/images/title-decoration.svg)',
+        title: 'url(./src/assets/images/title-decoration.svg)',
       },
     },
   },

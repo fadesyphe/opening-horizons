@@ -60,7 +60,7 @@ export default {
   mounted() {
     window.addEventListener('resize', () => {
       if (window.innerWidth >= 768) {
-        this.closeMenu()
+        this.closeMobileMenu()
       }
     })
   },

@@ -4,11 +4,7 @@
   <HomeList :title="servicesTitle" :list="servicesList">логотипов и лекал</HomeList>
   <TheAdvantages />
   <HomeWork />
-  <section class="section section--photos" id="PHOTO">
-    <div class="container">
-      <div class="section-inner"></div>
-    </div>
-  </section>
+  <TheCarousel />
   <section class="section section--socials">
     <div class="container">
       <div class="section-inner">
@@ -68,13 +64,15 @@ import TheHomeMain from "../components/TheHomeMain.vue"
 import HomeList from "../components/HomeList.vue"
 import TheAdvantages from "../components/TheAdvantages.vue"
 import HomeWork from "../components/HomeWork.vue"
+import TheCarousel from "../components/TheCarousel.vue"
 
 export default {
   components: {
     TheHomeMain,
     HomeList,
     TheAdvantages,
-    HomeWork
+    HomeWork,
+    TheCarousel
   },
 
   data() {

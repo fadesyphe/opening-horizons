@@ -16,7 +16,6 @@
       </h2>
       <RouterLink to="/prices">
         <BaseButton
-          :name="arrow"
           class="flex mx-auto mt-[26px] md:mt-[60px] px-9"
           >Услуги
         </BaseButton>
