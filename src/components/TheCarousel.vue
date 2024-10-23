@@ -127,6 +127,9 @@ export default {
         'items-center',
         'bg-orange',
         'rounded-full',
+        'border',
+        'border-black',
+        'md:border-0',
         'absolute',
         'z-50',
         'top-1/2',
@@ -134,7 +137,7 @@ export default {
         'stroke-black',
         'duration-500',
         'ease-out',
-        'hover:stroke-white'
+        'hover:stroke-white',
       ]
     },
   },

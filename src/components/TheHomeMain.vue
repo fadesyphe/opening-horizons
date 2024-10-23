@@ -14,12 +14,14 @@
         <p class="leading-3 text-center text-[11px] relative">
           Детская одежда на любой случай!
         </p>
-        <img class="my-9 w-[244px] mx-auto" src="../assets/images/home-main.jpg" alt="" />
-        <div class="w-full flex justify-center">
-          <BaseButton class="flex mx-auto text-center"
-            >Свяжитесь с нами</BaseButton
-          >
-        </div>
+        <img
+          class="my-9 w-[244px] mx-auto"
+          src="../assets/images/home-main.jpg"
+          alt=""
+        />
+        <BaseButton class="flex mx-auto text-center">
+          Свяжитесь с нами
+        </BaseButton>
       </div>
     </div>
   </div>
