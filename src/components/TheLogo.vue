@@ -6,9 +6,9 @@
     @mouseleave="changeColor('white')"
   >
     <BaseIcon name="logo" viewBox="0 0 27 27" :class="classesIcon" />
-    <p class="pl-2 text-[21px] leading-[0.6]">
+    <p class="pl-2 text-xs md:text-[21px] leading-[0.7]">
       Открывая <br />
-      <span>горизонты</span>
+      <span class="ml-7 md:ml-12">горизонты</span>
     </p>
   </RouterLink>
 </template>
@@ -35,14 +35,21 @@ export default {
 
   computed: {
     classesLogo() {
-      return ['flex', 'duration-500', 'ease-out', this.filling == 'white' ? 'text-white' : 'text-orange']
+      return [
+        'flex',
+        'duration-500',
+        'ease-out',
+        this.filling == 'white' ? 'text-white' : 'text-orange',
+      ]
     },
 
     classesIcon() {
       return [
         'fill-none',
-        'w-[25.4px]',
-        'h-[25.4px]',
+        'w-4',
+        'md:w-6',
+        'h-4',
+        'md:h-6',
         'ease-out',
         'duration-500',
         this.filling == 'white' ? 'stroke-white' : 'stroke-orange',
