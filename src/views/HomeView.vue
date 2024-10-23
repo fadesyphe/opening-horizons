@@ -1,26 +1,28 @@
 <template>
   <TheHomeMain />
   <HomeList :title="clientsTitle" :list="clientsList" />
-  <HomeList :title="servicesTitle" :list="servicesList">логотипов и лекал</HomeList>
+  <HomeList :title="servicesTitle" :list="servicesList">
+    логотипов и лекал
+  </HomeList>
   <TheAdvantages />
-  <HomeWork />
+  <TheHomeWork />
   <TheCarousel />
 </template>
 
 <script>
-import TheHomeMain from "../components/TheHomeMain.vue"
-import HomeList from "../components/HomeList.vue"
-import TheAdvantages from "../components/TheAdvantages.vue"
-import HomeWork from "../components/HomeWork.vue"
-import TheCarousel from "../components/TheCarousel.vue"
+import TheHomeMain from '../components/TheHomeMain.vue'
+import HomeList from '../components/HomeList.vue'
+import TheAdvantages from '../components/TheAdvantages.vue'
+import TheHomeWork from '../components/TheHomeWork.vue'
+import TheCarousel from '../components/TheCarousel.vue'
 
 export default {
   components: {
     TheHomeMain,
     HomeList,
     TheAdvantages,
-    HomeWork,
-    TheCarousel
+    TheHomeWork,
+    TheCarousel,
   },
 
   data() {
@@ -32,7 +34,7 @@ export default {
         { text: 'Организаторы мероприятий и кружков' },
         { text: 'Детские сады и школы' },
         { text: 'Корпаративные клиенты' },
-        { text: 'Начинающие предприниматели' }
+        { text: 'Начинающие предприниматели' },
       ],
       servicesList: [
         { text: 'Производство одежды (от 5 единиц)' },
@@ -40,8 +42,8 @@ export default {
         { text: 'Разработка дизайна и коллекций' },
         { text: 'Конструирование и градация лекал' },
         { text: 'Разработка печать и нанесение' },
-      ]
+      ],
     }
-  }
+  },
 }
 </script>

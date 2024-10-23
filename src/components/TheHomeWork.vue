@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full max-w-[1100px] px-3 mx-auto bg-green pt-5 pb-6 mt-8 text-white text-center"
+    class="w-full max-w-[934px] px-3 mx-auto bg-green pt-5 pb-6 mt-8 text-white text-center"
   >
     <h2 class="text-2xl mb-2">Наши работы</h2>
     <p class="leading-none text-[11px]">В этом альбоме вы можете увидеть</p>
