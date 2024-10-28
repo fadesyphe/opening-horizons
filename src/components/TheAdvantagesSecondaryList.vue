@@ -71,7 +71,7 @@
       </div>
     </div>
     <div>
-      <img class="w-full min-w-[180px] h-auto -ml-3 relative z-10" src="../assets/images/Ресурс 5.svg" alt="">
+      <img class="w-full min-w-[180px] h-auto -ml-3 relative z-10" src="../assets/images/advantages-list-bg.svg" alt="">
     </div>
   </div>
 </template>

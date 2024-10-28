@@ -18,7 +18,9 @@ import MenuItem from './MenuItem.vue'
 import BaseButton from './BaseButton.vue'
 
 export default {
-  props: ['menuList'],
+  props: {
+    menuList: Array
+  },
 
   components: {
     MenuItem,

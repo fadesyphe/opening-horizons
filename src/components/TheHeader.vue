@@ -1,7 +1,7 @@
 <template>
   <header class="bg-green pt-2 pb-3 text-white">
     <div
-      class="w-full max-w-[934px] px-3 mx-auto flex justify-between items-center"
+      class="w-full max-w-[934px] px-5 mx-auto flex justify-between items-center"
     >
       <TheLogo @click="closeMobileMenu" />
       <TheBurger @click-burger="clickBurger" :is-active="isActiveMenu" />

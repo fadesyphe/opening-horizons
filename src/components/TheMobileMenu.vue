@@ -45,7 +45,10 @@
 import MenuItem from './MenuItem.vue'
 
 export default {
-  props: ['isActive', 'menuList'],
+  props: {
+    isActive: Boolean,
+    menuList: Array,
+  },
 
   components: {
     MenuItem,

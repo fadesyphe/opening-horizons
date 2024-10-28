@@ -1,6 +1,6 @@
 <template>
   <div class="bg-green">
-    <div class="w-full max-w-[934px] px-3 py-9 mx-auto text-white md:flex justify-between items-center text-center md:text-left">
+    <div class="w-full max-w-[934px] px-5 py-9 mx-auto text-white md:flex justify-between items-center text-center md:text-left">
       <div>
         <h1 class="text-2xl leading-none font-bold relative z-20">
           Открывайте<br />новые возможности<br />в достойной одежде
@@ -27,7 +27,7 @@
         </BaseButton>
       </div>
       <img
-        class="hidden w-[340px] md:block"
+        class="hidden w-[340px] md:block lg:w-[468px]"
         src="../assets/images/home-main.jpg"
         alt=""
       />

@@ -15,7 +15,7 @@
         class="px-4"
       >
         <swiper-slide v-for="item in list" :key="item">
-          <img :src="item.image" alt="" class="mx-auto" />
+          <img :src="item.image" alt="" class="mx-auto" loading="lazy" />
         </swiper-slide>
       </swiper>
       <button ref="prev" :class="[classes, 'left-[18px]', 'rotate-180']" @mouseenter="hoverButton">

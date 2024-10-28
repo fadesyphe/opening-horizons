@@ -4,7 +4,9 @@
 <script>
 import icons from '../icons.js'
 export default {
-  props: ['name'],
+  props: {
+    name: String,
+  },
   data() {
     return {
       path: icons[this.name],

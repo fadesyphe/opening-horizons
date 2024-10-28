@@ -1,33 +1,28 @@
 <template>
-  <section class="pt-9 w-full max-w-[245px] px-3 mx-auto">
-    <div class="text-center md:text-left font-bold">
-      <div class="relative z-20">
-        <h2 class="inline-block text-[21px] leading-none relative z-20" v-html="title"></h2>
-        <img
-          class="absolute z-[19] w-[155px] h-[12px] left-1/2 -translate-x-1/2 -bottom-1"
-          src="../assets/images/title-decoration.svg"
-          alt="Подчеркивание заголовка"
-        />
-      </div>
-      <ul class="pt-5 relative z-20 text-left">
-        <li v-for="(item, idx) in list" :key="idx" :class="classesItems">
-          {{ item.text }}
-        </li>
-        <p class="text-[11px] relative text-right"><slot></slot></p>
-      </ul>
-    </div>
-  </section>
+  <ul class="pt-5 relative z-20 text-left md:flex md:flex-col md:gap-4">
+    <li v-for="(item, idx) in list" :key="idx" :class="classesItems">
+      {{ item.text }}
+    </li>
+    <p class="text-[11px] md:text-[16px] lg:text-[21px] relative text-right">
+      <slot></slot>
+    </p>
+  </ul>
 </template>
 
 <script>
 export default {
-  props: ['list', 'title'],
+  props: {
+    list: Array,
+  },
 
   computed: {
     classesItems() {
       return [
         'text-[11px]',
+        'md:text-[16px]',
+        'lg:text-[21px]',
         'pl-1',
+        'md:pl-2',
         'relative',
         'after:content-[""]',
         'after:absolute',
