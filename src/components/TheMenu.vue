@@ -1,12 +1,12 @@
 <template>
-  <nav class="hidden md:flex items-center gap-16">
+  <nav class="hidden md:flex items-center gap-10">
     <ul class="flex md:gap-10 lg:gap-[58px] items-center">
       <MenuItem
         v-for="item in menuList"
         :key="item.text"
         :link="item.link"
         :text="item.text"
-        :class="'font-size-[15.3px]'"
+        :class="'text-[10px]'"
       />
     </ul>
     <BaseButton class="hidden md:flex">Связаться</BaseButton>

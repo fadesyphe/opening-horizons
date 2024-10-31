@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-9 w-full max-w-[282px] md:max-w-[1200px] px-5 mx-auto md:flex md:items-end md:justify-center gap-4"
+    class="pt-8 w-full max-w-[282px] md:max-w-[635px] px-5 mx-auto md:flex md:items-end md:justify-between"
   >
     <div class="text-center md:text-left font-bold md:-mb-14">
       <HomeListTitle :title="title" />
@@ -9,7 +9,7 @@
     <img
       src="../assets/images/home-clients.jpg"
       alt="Платье"
-      class="hidden h-auto md:block md:w-[323px]"
+      class="hidden h-auto md:block md:w-[323px] -mr-4"
     />
   </section>
 </template>

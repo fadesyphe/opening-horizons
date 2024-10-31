@@ -29,8 +29,8 @@ export default {
         'bottom-0',
         'md:left-0',
         'md:translate-x-0',
-        'md:w-[232px]',
-        'md:-bottom-[10px]',
+        'md:w-[206px]',
+        'md:-bottom-2',
       ]
     },
   },

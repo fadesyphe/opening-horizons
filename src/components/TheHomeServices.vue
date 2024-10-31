@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-9 w-full max-w-[282px] md:max-w-[1200px] px-5 mx-auto md:flex md:flex-row-reverse md:items-start md:pt-16 md:justify-center"
+    class="pt-8 w-full max-w-[282px] md:max-w-[1200px] px-5 mx-auto md:flex md:flex-row-reverse md:items-start md:pt-16 md:justify-center"
   >
     <div class="text-center md:text-left font-bold">
       <HomeListTitle :title="title" />

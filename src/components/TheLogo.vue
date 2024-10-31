@@ -6,9 +6,9 @@
     @mouseleave="changeColor('white')"
   >
     <BaseIcon name="logo" viewBox="0 0 27 27" :class="classesIcon" />
-    <p class="pl-2 text-xs md:text-[21px] leading-[0.7]">
+    <p class="ml-[3px] text-[8px] leading-[10px] md:text-sm md:leading-none">
       Открывая <br />
-      <span class="ml-7 md:ml-12">горизонты</span>
+      <span class="ml-5 md:ml-8">горизонты</span>
     </p>
   </RouterLink>
 </template>
@@ -39,6 +39,8 @@ export default {
         'flex',
         'duration-500',
         'ease-out',
+        'flex',
+        'items-center',
         this.filling == 'white' ? 'text-white' : 'text-orange',
       ]
     },
@@ -46,10 +48,10 @@ export default {
     classesIcon() {
       return [
         'fill-none',
-        'w-4',
-        'md:w-6',
-        'h-4',
-        'md:h-6',
+        'w-[10px]',
+        'md:w-[17px]',
+        'h-[10px]',
+        'md:h-[17px]',
         'ease-out',
         'duration-500',
         this.filling == 'white' ? 'stroke-white' : 'stroke-orange',

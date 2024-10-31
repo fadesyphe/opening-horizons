@@ -1,9 +1,9 @@
 <template>
-  <ul class="pt-5 relative z-20 text-left md:flex md:flex-col md:gap-4">
+  <ul class="pt-5 relative z-20 text-left flex flex-col gap-1 md:gap-4">
     <li v-for="(item, idx) in list" :key="idx" :class="classesItems">
       {{ item.text }}
     </li>
-    <p class="text-xs md:text-[15px] lg:text-[15px] relative text-right">
+    <p class="text-xs md:text-[15px] relative text-right">
       <slot></slot>
     </p>
   </ul>
@@ -18,7 +18,7 @@ export default {
   computed: {
     classesItems() {
       return [
-        'text-[11px]',
+        'text-xs',
         'md:text-[15px]',
         'pl-1',
         'md:pl-2',
