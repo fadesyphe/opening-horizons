@@ -3,7 +3,7 @@
     <li v-for="(item, idx) in list" :key="idx" :class="classesItems">
       {{ item.text }}
     </li>
-    <p class="text-[11px] md:text-[16px] lg:text-[21px] relative text-right">
+    <p class="text-xs md:text-[15px] lg:text-[15px] relative text-right">
       <slot></slot>
     </p>
   </ul>
@@ -19,8 +19,7 @@ export default {
     classesItems() {
       return [
         'text-[11px]',
-        'md:text-[16px]',
-        'lg:text-[21px]',
+        'md:text-[15px]',
         'pl-1',
         'md:pl-2',
         'relative',

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-9 w-full max-w-[282px] md:max-w-[949px] px-5 mx-auto md:flex md:flex-row-reverse md:items-start md:pt-16 md:justify-start"
+    class="pt-9 w-full max-w-[282px] md:max-w-[1200px] px-5 mx-auto md:flex md:flex-row-reverse md:items-start md:pt-16 md:justify-center"
   >
     <div class="text-center md:text-left font-bold">
       <HomeListTitle :title="title" />
@@ -44,11 +44,11 @@ export default {
         '-translate-y-6',
         'translate-x-11',
         'h-[140px]',
-        'md:h-[380px]',
         'md:translate-x-0',
-        'md:-translate-y-[4.5rem]',
+        'md:-translate-y-16',
         'md:ml-0',
-        'lg:h-[512px]',
+        'md:-mr-2',
+        'md:h-[343px]',
       ]
     },
   },

@@ -1,12 +1,12 @@
 <template>
   <div class="relative z-20 w-fit mx-auto md:ml-0 md:w-full">
     <h2
-      class="inline-block text-[21px] leading-none relative z-20 md:text-[38px] md:leading-[46px]"
+      class="inline-block text-[14px] leading-[17px] relative z-20 md:text-[26px] md:leading-[31px]"
       v-html="title"
     ></h2>
     <img
       :class="titleDecoration"
-      src="../assets/images/title-decoration.svg"
+      src="../assets/images/title-decoration_home-list.svg"
       alt="Подчеркивание заголовка"
     />
   </div>
@@ -23,14 +23,13 @@ export default {
       return [
         'absolute',
         'z-[19]',
-        'w-[155px]',
+        'w-[97px]',
         'left-1/2',
         '-translate-x-1/2',
-        '-bottom-1',
+        'bottom-0',
         'md:left-0',
         'md:translate-x-0',
         'md:w-[232px]',
-        'md:w-[308px]',
         'md:-bottom-[10px]',
       ]
     },
