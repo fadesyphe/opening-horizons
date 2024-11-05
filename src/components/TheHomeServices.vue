@@ -1,8 +1,8 @@
 <template>
   <section
-    class="pt-8 w-full max-w-[282px] md:max-w-[1200px] px-5 mx-auto md:flex md:flex-row-reverse md:items-start md:pt-16 md:justify-center"
+    class="w-full max-w-[282px] md:max-w-[981px] px-4 md:px-5 lg:px-6 mx-auto pt-8 md:flex md:flex-row-reverse md:items-start md:pt-16 md:justify-center"
   >
-    <div class="text-center md:text-left font-bold">
+    <div class="text-center md:text-left font-bold lg:-ml-4">
       <HomeListTitle :title="title" />
       <HomeList :list="list"> логотипов и принтов </HomeList>
     </div>
@@ -49,6 +49,8 @@ export default {
         'md:ml-0',
         'md:-mr-2',
         'md:h-[343px]',
+        'lg:h-[511px]',
+        'lg:-translate-y-20'
       ]
     },
   },

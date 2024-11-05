@@ -1,5 +1,5 @@
 <template>
-  <section class="section section--advantages mt-9">
+  <section class="mt-9 md:mt-0">
     <TheAdvantagesMain />
     <TheAdvantagesFirstList />
     <TheAdvantagesSecondaryList />

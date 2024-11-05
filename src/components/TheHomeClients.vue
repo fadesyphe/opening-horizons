@@ -1,15 +1,15 @@
 <template>
   <section
-    class="pt-8 w-full max-w-[282px] md:max-w-[635px] px-5 mx-auto md:flex md:items-end md:justify-between"
+    class="w-full max-w-[282px] md:max-w-[981px] px-4 md:px-5 lg:px-6 mx-auto pt-8 md:flex md:items-end md:justify-between"
   >
-    <div class="text-center md:text-left font-bold md:-mb-14">
+    <div class="text-center md:text-left font-bold md:-mb-9 lg:-mb-16">
       <HomeListTitle :title="title" />
       <HomeList :list="list"></HomeList>
     </div>
     <img
       src="../assets/images/home-clients.jpg"
       alt="Платье"
-      class="hidden h-auto md:block md:w-[323px] -mr-4"
+      class="hidden h-auto md:block md:w-[323px] lg:w-[482px] -mr-4"
     />
   </section>
 </template>

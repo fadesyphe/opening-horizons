@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-green">
-    <div class="w-full max-w-[934px] px-5 mx-auto py-8 md:flex">
-      <div class="w-full max-w-[1100px] px-3 mx-auto text-center md:text-left">
+  <div class="bg-green text-white">
+    <div class="w-full max-w-[981px] px-4 md:px-5 lg:px-6 mx-auto py-8 md:flex md:justify-between items-center">
+      <div class="text-center md:text-left">
         <div class="relative z-20">
-          <h2 class="inline-block text-[14px] leading-[17px] relative z-20 md:text-[26px] md:leading-[31px]">
+          <h2 class="inline-block text-[14px] leading-[17px] relative z-20 md:text-[26px] md:leading-[31px] lg:text-[38px] lg:leading-[46px]">
             Почему мы?
             <br />
-            Наши преимущества
+            Наше преимущества
           </h2>
           <img
             :class="titleDecoration"
@@ -15,13 +15,13 @@
           />
         </div>
         <RouterLink to="/prices">
-          <BaseButton class="flex mx-auto mt-[26px] md:mt-[60px] md:mx-0 px-9"
+          <BaseButton class="flex mx-auto mt-4 md:mt-10 lg:mt-[60px] md:mx-0 px-9"
             >Услуги
           </BaseButton>
         </RouterLink>
       </div>
       <img
-        class="hidden md:block mr-10"
+        class="hidden md:block w-[275px] lg:w-[482px]"
         src="../assets/images/advantages-hero.jpg"
         alt=""
       />
@@ -48,8 +48,10 @@ export default {
         'bottom-[18px]',
         'md:left-0',
         'md:translate-x-0',
-        'md:w-[211px]',
-        'md:bottom-10',
+        'md:w-[141px]',
+        'md:bottom-7',
+        'lg:w-[211px]',
+        'lg:bottom-10',
       ]
     }
   }

@@ -1,7 +1,7 @@
 <template>
   <div class="relative z-20 w-fit mx-auto md:ml-0 md:w-full">
     <h2
-      class="inline-block text-[14px] leading-[17px] relative z-20 md:text-[26px] md:leading-[31px]"
+      class="inline-block text-sm leading-[17px] md:text-[26px] md:leading-[31px] lg:text-[38px] lg:leading-[46px] relative z-20 "
       v-html="title"
     ></h2>
     <img
@@ -31,6 +31,7 @@ export default {
         'md:translate-x-0',
         'md:w-[206px]',
         'md:-bottom-2',
+        'md:w-[307px]'
       ]
     },
   },
