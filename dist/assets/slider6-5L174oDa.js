@@ -1,0 +1,1 @@
+const s="/opening-horizons/assets/slider1-B7hBng7N.jpg",e="/opening-horizons/assets/slider3-CyYZg084.jpg",i="/opening-horizons/assets/slider4-CvFAK3yV.jpg",n="/opening-horizons/assets/slider6-DaPhV2zz.jpg";export{e as a,i as b,n as c,s as i};
