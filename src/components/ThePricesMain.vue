@@ -8,24 +8,26 @@
           Цены на услуги
         </h1>
         <p
-          class="mt-4 mb-3 text-[10px] leading-3 md:text-[14px] md:leading-[17px] lg:text-[21px] lg:leading-[25px] relative"
+          class="mt-4 mb-3 text-[10px] leading-3 md:text-[14px] md:leading-[17px] lg:text-[21px] lg:leading-[25px] relative z-20"
         >
           В прайс листе указаны начальные цены <br />
           за производство базовой модели
         </p>
         <p
-          class="text-[10px] leading-3 md:text-[14px] md:leading-[17px] lg:text-[21px] lg:leading-[25px] relative"
+          class="text-[10px] leading-3 md:text-[14px] md:leading-[17px] lg:text-[21px] lg:leading-[25px] relative z-20"
         >
           Стоимость в каждом случае рассчитывается индивидуально. <br />
           Конечная цена за изготовление изделия рассчитывается <br />
           на консультации после уточнения всех деталей модели.
         </p>
         <p
-          class="mt-3 text-[10px] leading-3 md:text-[14px] md:leading-[17px] lg:text-[21px] lg:leading-[25px] relative"
+          class="mt-3 text-[10px] leading-3 md:text-[14px] md:leading-[17px] lg:text-[21px] lg:leading-[25px] relative z-20"
         >
           Консультации по пошиву бесплатны!
         </p>
-        <BaseButton class="flex mt-11 mx-auto">Свяжитесь с нами</BaseButton>
+        <BaseButton class="flex mt-11 mx-auto relative z-20"
+          >Свяжитесь с нами</BaseButton
+        >
       </div>
     </div>
     <img
