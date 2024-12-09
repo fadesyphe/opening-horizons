@@ -1,5 +1,16 @@
-<template></template>
+<template>
+  <ThePricesMain />
+  <ThePricesTables />
+</template>
 
 <script>
-export default {}
+import ThePricesMain from '../components/ThePricesMain.vue'
+import ThePricesTables from '../components/ThePricesTables.vue'
+
+export default {
+  components: {
+    ThePricesMain,
+    ThePricesTables,
+  },
+}
 </script>

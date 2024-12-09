@@ -45,7 +45,7 @@ export default {
         'w-[114px]',
         'left-1/2',
         '-translate-x-1/2',
-        'bottom-[18px]',
+        'bottom-4',
         'md:left-0',
         'md:translate-x-0',
         'md:w-[141px]',

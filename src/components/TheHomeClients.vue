@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full max-w-[282px] md:max-w-[981px] px-4 md:px-5 lg:px-6 mx-auto pt-8 md:flex md:items-end md:justify-between"
+    class="w-full max-w-[282px] md:max-w-[981px] px-4 md:px-5 lg:px-6 mx-auto pt-8 md:pt-16 lg:pt-[90px] md:flex md:items-end md:justify-between"
   >
     <div class="text-center md:text-left font-bold md:-mb-9 lg:-mb-16">
       <HomeListTitle :title="title" />
@@ -33,7 +33,7 @@ export default {
         { text: 'Корпаративные клиенты' },
         { text: 'Начинающие предприниматели' },
       ],
-      title: 'Кому <br /><span class="md:pl-3">мы полезны</span>'
+      title: 'Кому <br /><span class="md:pl-3">мы полезны</span>',
     }
   },
 }

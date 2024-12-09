@@ -1,10 +1,10 @@
 <template>
-  <div class="flex items-center justify-center gap-x-3">
+  <div class="flex items-center justify-center gap-x-3 md:gap-x-4 lg:gap-x-5">
     <a v-for="item in list" :href="item.link" :key="item.name" target="_blank">
       <BaseIcon
         :name="item.name"
         :viewBox="item.viewBox"
-        class="w-5 h-5 fill-white hover:fill-orange duration-500 ease-out"
+        class="w-5 md:w-7 h-5 md:h-7 lg:w-9 lg:h-9 fill-white hover:fill-orange duration-500 ease-out"
       />
     </a>
   </div>
@@ -17,7 +17,7 @@ export default {
   components: {
     BaseIcon,
   },
-  
+
   data() {
     return {
       list: [

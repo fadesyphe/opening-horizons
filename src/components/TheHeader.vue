@@ -1,16 +1,21 @@
 <template>
-  <header class="bg-green pt-2 pb-3 text-white">
+  <header class="bg-green pt-2 pb-3 text-white" @keyup.esc="closeMobileMenu">
     <div
       class="w-full max-w-[981px] px-4 md:px-5 lg:px-6 mx-auto flex justify-between items-center"
     >
       <TheLogo @click="closeMobileMenu" />
       <TheBurger @click-burger="clickBurger" :is-active="isActiveMenu" />
       <TheMenu :menu-list="menuList" />
-      <TheMobileMenu
+      <TheOverlay
         :is-active="isActiveMenu"
-        :menu-list="menuList"
         @close-mobile-menu="closeMobileMenu"
-      />
+      >
+        <TheMobileMenu
+          :is-active="isActiveMenu"
+          :menu-list="menuList"
+          @close-mobile-menu="closeMobileMenu"
+        />
+      </TheOverlay>
     </div>
   </header>
 </template>
@@ -20,6 +25,7 @@ import TheLogo from './TheLogo.vue'
 import TheBurger from './TheBurger.vue'
 import TheMenu from './TheMenu.vue'
 import TheMobileMenu from './TheMobileMenu.vue'
+import TheOverlay from './TheOverlay.vue'
 
 export default {
   components: {
@@ -27,12 +33,13 @@ export default {
     TheBurger,
     TheMenu,
     TheMobileMenu,
+    TheOverlay,
   },
 
   data() {
     return {
       menuList: [
-        { link: 'about', text: 'О нас' },
+        { link: '/', text: 'О нас' },
         { link: 'services', text: 'Услуги' },
         { link: 'prices', text: 'Цены' },
         { link: 'portfolio', text: 'Портфолио' },
